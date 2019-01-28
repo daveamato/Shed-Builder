@@ -17,7 +17,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1095',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0406LTP',
@@ -25,7 +26,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1195',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0406YH',
@@ -33,7 +35,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '795',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0408LTC',
@@ -41,7 +44,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1245',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0408LTP',
@@ -49,7 +53,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1355',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0408YH',
@@ -57,7 +62,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '895',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0410LTC',
@@ -65,7 +71,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1450',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0410LTP',
@@ -73,7 +80,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1595',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0412LTC',
@@ -81,7 +89,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1695',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0412LTP',
@@ -89,7 +98,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1835',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0414LTC',
@@ -97,7 +107,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '04PORCH',
@@ -113,7 +124,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0606LTP',
@@ -121,7 +133,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0606SAC',
@@ -129,7 +142,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1195',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0606SAP',
@@ -137,7 +151,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0606TAC',
@@ -145,7 +160,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1275',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0606TAP',
@@ -153,7 +169,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0606VA',
@@ -161,7 +178,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0608LTC',
@@ -169,7 +187,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0608LTP',
@@ -177,7 +196,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1625',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0608SAC',
@@ -185,7 +205,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0608SAP',
@@ -193,7 +214,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0608TAC',
@@ -201,7 +223,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0608TAP',
@@ -209,7 +232,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1595',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0608VA',
@@ -217,7 +241,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0610LTC',
@@ -225,7 +250,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1725',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0610LTP',
@@ -233,7 +259,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1895',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0610SAC',
@@ -241,7 +268,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1550',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0610SAP',
@@ -249,7 +277,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1650',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0610TAC',
@@ -257,7 +286,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1725',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0610TAP',
@@ -265,7 +295,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1875',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0610VA',
@@ -273,7 +304,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0612LTC',
@@ -281,7 +313,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0612LTP',
@@ -289,7 +322,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0612SAC',
@@ -297,7 +331,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1625',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0612SAP',
@@ -305,7 +340,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1775',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0612TAC',
@@ -313,7 +349,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1875',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0612TAP',
@@ -321,7 +358,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2095',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0612VA',
@@ -329,7 +367,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0614LTP',
@@ -337,7 +376,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0614SAP',
@@ -345,7 +385,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2070',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0614TAP',
@@ -353,7 +394,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2445',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0616LTP',
@@ -361,7 +403,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2860',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0616TLTP',
@@ -369,7 +412,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3052',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0620LTP',
@@ -377,7 +421,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3025',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0620SAP',
@@ -385,7 +430,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '07GDO',
@@ -401,7 +447,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0806LTC',
@@ -409,7 +456,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0806SAC',
@@ -417,7 +465,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0806SAP',
@@ -425,7 +474,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0806VA',
@@ -433,7 +483,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0807GD',
@@ -449,7 +500,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808LTC',
@@ -457,7 +509,8 @@ export const inventory = [
 		D: 'Service',
 		price: '1875',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808LTP',
@@ -465,7 +518,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2025',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808MBC',
@@ -473,7 +527,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1525',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808MBP',
@@ -481,7 +536,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1685',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808SAC',
@@ -489,7 +545,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1525',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808SAP',
@@ -497,7 +554,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1635',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808SB',
@@ -505,7 +563,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808TAC',
@@ -513,7 +572,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1825',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808TAP',
@@ -521,7 +581,8 @@ export const inventory = [
 		D: 'Service',
 		price: '1995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808TBC',
@@ -529,7 +590,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808TBP',
@@ -537,7 +599,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2125',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0808VA',
@@ -545,7 +608,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810LTC',
@@ -553,7 +617,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810LTP',
@@ -561,7 +626,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2325',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810MBC',
@@ -569,7 +635,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1695',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810MBP',
@@ -577,7 +644,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810PH',
@@ -585,7 +653,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810SAC',
@@ -593,7 +662,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1695',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810SAP',
@@ -601,7 +671,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1895',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810SB',
@@ -609,7 +680,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2575',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810TAC',
@@ -617,7 +689,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2095',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810TAP',
@@ -625,7 +698,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2275',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810TBC',
@@ -633,7 +707,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2225',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810TBP',
@@ -641,7 +716,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0810VA',
@@ -649,7 +725,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812COOPDV',
@@ -657,7 +734,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812LTC',
@@ -665,7 +743,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812LTP',
@@ -673,7 +752,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2550',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812MBC',
@@ -681,7 +761,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1795',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812MBP',
@@ -689,7 +770,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2195',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812SAC',
@@ -697,7 +779,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1875',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812SAP',
@@ -705,7 +788,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2075',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812SB',
@@ -713,7 +797,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2895',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812TAC',
@@ -721,7 +806,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2275',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812TAP',
@@ -729,7 +815,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812TAPK',
@@ -737,7 +824,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812TBC',
@@ -745,7 +833,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812TBP',
@@ -753,7 +842,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2650',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0812VA',
@@ -761,7 +851,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1675',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814COOPDV',
@@ -769,7 +860,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814LTC',
@@ -777,7 +869,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2575',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814LTP',
@@ -785,7 +878,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2775',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814MBC',
@@ -793,7 +887,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2050',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814MBP',
@@ -801,7 +896,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2375',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814SAC',
@@ -809,7 +905,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2050',
 		F: 'no',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814SAP',
@@ -817,7 +914,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2275',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814SB',
@@ -825,7 +923,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814TAC',
@@ -833,7 +932,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2450',
 		F: 'no',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814TAP',
@@ -841,7 +941,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2675',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814TBC',
@@ -849,7 +950,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2795',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814TBP',
@@ -857,7 +959,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2895',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814TLTP',
@@ -865,7 +968,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2775',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0814VA',
@@ -873,7 +977,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1775',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816CDV',
@@ -881,7 +986,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3795',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816LTC',
@@ -889,7 +995,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2825',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816LTP',
@@ -897,7 +1004,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3025',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816MBC',
@@ -905,7 +1013,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2195',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816MBP',
@@ -913,7 +1022,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2675',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816SAC',
@@ -921,7 +1031,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2195',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816SAP',
@@ -929,7 +1040,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816SBP',
@@ -937,7 +1049,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816TAC',
@@ -945,7 +1058,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2695',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816TAP',
@@ -953,7 +1067,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2925',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816TBC',
@@ -961,7 +1076,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3050',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816TBP',
@@ -969,7 +1085,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3225',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816TLTP',
@@ -977,7 +1094,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3105',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0816VA',
@@ -985,7 +1103,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0818LTP',
@@ -993,7 +1112,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0818TAP',
@@ -1001,7 +1121,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0820LTC',
@@ -1009,7 +1130,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3450',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0820LTP',
@@ -1017,7 +1139,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3695',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0820SAC',
@@ -1025,7 +1148,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0820TAP',
@@ -1033,7 +1157,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3475',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0822LTP',
@@ -1041,7 +1166,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4070',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0824TAC',
@@ -1049,7 +1175,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0916SAP',
@@ -1057,7 +1184,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '0916TAP',
@@ -1065,7 +1193,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1006SAC',
@@ -1073,7 +1202,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1550',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1006SAP',
@@ -1081,7 +1211,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1650',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1006VA',
@@ -1089,7 +1220,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1008SAC',
@@ -1097,7 +1229,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1695',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1008SAP',
@@ -1105,7 +1238,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1895',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1008SBP',
@@ -1113,7 +1247,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2575',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1008TBP',
@@ -1121,7 +1256,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1008VAC',
@@ -1129,7 +1265,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010LTC',
@@ -1137,7 +1274,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2450',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010LTP',
@@ -1145,7 +1283,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2625',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010MBC',
@@ -1153,7 +1292,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1850',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010MBP',
@@ -1161,7 +1301,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2175',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010PH',
@@ -1169,7 +1310,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2625',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010SAC',
@@ -1177,7 +1319,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1850',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010SAP',
@@ -1185,7 +1328,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2095',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010SBP',
@@ -1193,7 +1337,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010TAC',
@@ -1201,7 +1346,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2350',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010TAP',
@@ -1209,7 +1355,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2595',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010TBC',
@@ -1217,7 +1364,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2625',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010TBP',
@@ -1225,7 +1373,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2795',
 		F: 'no',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1010VA',
@@ -1233,7 +1382,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1695',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012FK',
@@ -1241,7 +1391,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012LTC',
@@ -1249,7 +1400,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2725',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012LTP',
@@ -1257,7 +1409,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2925',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012MBC',
@@ -1265,7 +1418,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012MBP',
@@ -1273,7 +1427,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2525',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012SAC',
@@ -1281,7 +1436,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012SAP',
@@ -1289,7 +1445,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012SB',
@@ -1297,7 +1454,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3475',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012TAC',
@@ -1305,7 +1463,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2675',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012TAP',
@@ -1313,7 +1472,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2895',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012TAPK',
@@ -1321,7 +1481,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012TBC',
@@ -1329,7 +1490,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2875',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012TBP',
@@ -1337,7 +1499,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3095',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012TLTP',
@@ -1345,7 +1508,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2925',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1012VA',
@@ -1353,7 +1517,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014LTC',
@@ -1361,7 +1526,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3050',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014LTP',
@@ -1369,7 +1535,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3250',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014MBC',
@@ -1377,7 +1544,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014MBP',
@@ -1385,7 +1553,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2750',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014SAC',
@@ -1393,7 +1562,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014SAP',
@@ -1401,7 +1571,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2695',
 		F: 'no',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014SB',
@@ -1409,7 +1580,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3695',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014TAC',
@@ -1417,7 +1589,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2850',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014TAP',
@@ -1425,7 +1598,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3125',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014TAPK',
@@ -1433,7 +1607,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1207',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014TBC',
@@ -1441,7 +1616,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3250',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014TBP',
@@ -1449,7 +1625,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1014VA',
@@ -1457,7 +1634,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016LTC',
@@ -1465,7 +1643,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016LTP',
@@ -1473,7 +1652,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3525',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016MBC',
@@ -1481,7 +1661,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2750',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016MBP',
@@ -1489,7 +1670,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3025',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016SAC',
@@ -1497,7 +1679,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2750',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016SAP',
@@ -1505,7 +1688,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2925',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016SBP',
@@ -1513,7 +1697,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016TAC',
@@ -1521,7 +1706,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3250',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016TAP',
@@ -1529,7 +1715,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3475',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016TBC',
@@ -1537,7 +1724,8 @@ export const inventory = [
 		D: 'Service',
 		price: '3550',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016TBP',
@@ -1545,7 +1733,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3725',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016TLTP',
@@ -1553,7 +1742,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3625',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1016VAC',
@@ -1561,7 +1751,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1018LTP',
@@ -1569,7 +1760,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3760',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1018SAC',
@@ -1577,7 +1769,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1018SBP',
@@ -1585,7 +1778,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1018TAP',
@@ -1593,7 +1787,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1018TLP',
@@ -1601,7 +1796,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3960',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020LTC',
@@ -1609,7 +1805,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3775',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020LTP',
@@ -1617,7 +1814,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020MBC',
@@ -1625,7 +1823,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3450',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020MBP',
@@ -1633,7 +1832,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3595',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020SAC',
@@ -1641,7 +1841,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3450',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020SAP',
@@ -1649,7 +1850,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3650',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020SBP',
@@ -1657,7 +1859,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4550',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020TAC',
@@ -1665,7 +1868,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3650',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020TAP',
@@ -1673,7 +1877,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3925',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020TBC',
@@ -1681,7 +1886,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4050',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020TBP',
@@ -1689,7 +1895,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4350',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1020TLTP',
@@ -1697,7 +1904,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4250',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1022TAP',
@@ -1705,7 +1913,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4345',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1024POH',
@@ -1737,7 +1946,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '1625',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1208PHC',
@@ -1745,7 +1955,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1208SAC',
@@ -1753,7 +1964,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2075',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1208SAP',
@@ -1761,7 +1973,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2075',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1210SAC',
@@ -1769,7 +1982,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1210SAP',
@@ -1777,7 +1991,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1210SBP',
@@ -1785,7 +2000,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3475',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1210TAP',
@@ -1793,7 +2009,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2925',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212FK',
@@ -1801,7 +2018,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212LTC',
@@ -1809,7 +2027,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3095',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212LTP',
@@ -1817,7 +2036,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3325',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212MBP',
@@ -1825,7 +2045,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2975',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212RK',
@@ -1833,7 +2054,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212SAC',
@@ -1841,7 +2063,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2750',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212SAP',
@@ -1849,7 +2072,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2975',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212SBP',
@@ -1857,7 +2081,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3850',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212TAC',
@@ -1865,7 +2090,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3025',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212TAP',
@@ -1873,7 +2099,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1212TBP',
@@ -1881,7 +2108,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3550',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1214LTC',
@@ -1889,7 +2117,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3375',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1214LTP',
@@ -1897,7 +2126,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3650',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1214MBP',
@@ -1905,7 +2135,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1214SAC',
@@ -1913,7 +2144,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3075',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1214SAP',
@@ -1921,7 +2153,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3350',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1214SBP',
@@ -1929,7 +2162,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1214TAC',
@@ -1937,7 +2171,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3350',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1214TAP',
@@ -1945,7 +2180,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3595',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1214TBP',
@@ -1953,7 +2189,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4095',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216LTC',
@@ -1961,7 +2198,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3750',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216LTP',
@@ -1969,7 +2207,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4050',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216MBP',
@@ -1977,7 +2216,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3525',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216SAC',
@@ -1985,7 +2225,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3325',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216SAP',
@@ -1993,7 +2234,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3595',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216SB',
@@ -2001,7 +2243,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4550',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216TAC',
@@ -2009,7 +2252,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3675',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216TAP',
@@ -2017,7 +2261,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3925',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216TAPK',
@@ -2025,7 +2270,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216TBP',
@@ -2033,7 +2279,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4350',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1216TKP',
@@ -2041,7 +2288,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4395',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1218SAP',
@@ -2049,7 +2297,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3895',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1218SBP',
@@ -2057,7 +2306,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1218TAP',
@@ -2065,7 +2315,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1218TAPK',
@@ -2073,7 +2324,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1218TBP',
@@ -2081,7 +2333,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4795',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1220LTC',
@@ -2089,7 +2342,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4650',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1220LTP',
@@ -2097,7 +2351,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4950',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1220SAP',
@@ -2105,7 +2360,8 @@ export const inventory = [
 		D: 'Service',
 		price: '4195',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1220SBP',
@@ -2113,7 +2369,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5550',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1220TAP',
@@ -2121,7 +2378,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4650',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1220TBP',
@@ -2129,7 +2387,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5125',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1224LTC',
@@ -2137,7 +2396,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5250',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1224LTP',
@@ -2145,7 +2405,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5595',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1224SAP',
@@ -2153,7 +2414,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4895',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1224SBP',
@@ -2161,7 +2423,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '6495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1224TAP',
@@ -2169,7 +2432,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5350',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1224TBP',
@@ -2177,7 +2441,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5975',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1224TSP',
@@ -2185,7 +2450,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1226TAP',
@@ -2193,7 +2459,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1228SAP',
@@ -2201,7 +2468,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5495',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1228SBP',
@@ -2209,7 +2477,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '7250',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1228TAP',
@@ -2217,7 +2486,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '6125',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1228TBP',
@@ -2225,7 +2495,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '6450',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1232SAP',
@@ -2233,7 +2504,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1232SB',
@@ -2241,7 +2513,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '8050',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1232TAP',
@@ -2249,7 +2522,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '6725',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1232TBP',
@@ -2257,7 +2531,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '7250',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '12OC',
@@ -2273,7 +2548,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3075',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1412TAP',
@@ -2281,7 +2557,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3595',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1412TBP',
@@ -2289,7 +2566,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1414SAP',
@@ -2297,7 +2575,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '3595',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1414TAP',
@@ -2305,7 +2584,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1414TTK',
@@ -2313,7 +2593,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5561',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1418TAP',
@@ -2321,7 +2602,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5950',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1420TAP',
@@ -2329,7 +2611,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5460',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1420TTACK',
@@ -2337,7 +2620,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1421W',
@@ -2345,7 +2629,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '110',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1424SBP',
@@ -2353,7 +2638,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '7795',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1424TAP',
@@ -2361,7 +2647,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '6325',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1424TBP',
@@ -2369,7 +2656,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '7295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1427W',
@@ -2377,7 +2665,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '135',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1430SBP',
@@ -2385,7 +2674,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '9850',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1430TAP',
@@ -2393,7 +2683,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1430TBP',
@@ -2401,7 +2692,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '9250',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '14OCTW',
@@ -2417,7 +2709,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1616TAP',
@@ -2425,7 +2718,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5120',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1620SAP',
@@ -2433,7 +2727,8 @@ export const inventory = [
 		D: 'Service',
 		price: '5995',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1620TAP',
@@ -2441,7 +2736,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '7360',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1620W',
@@ -2449,7 +2745,8 @@ export const inventory = [
 		D: 'Service',
 		price: '110',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '16FLOOR',
@@ -2469,11 +2766,12 @@ export const inventory = [
 	},
 	{
 		name: '16SHELF',
-		description: '1 - 8\'x16" Shelf',
+		description: '16" Shelf (Price per Linear ft)',
 		D: 'Non-inventory',
 		price: '4.5',
 		F: 'yes',
-		G: 'Sales:Loft, Shelf & Workbench Options'
+		G: 'Sales:Loft, Shelf & Workbench Options',
+		category: 'shelving'
 	},
 	{
 		name: '16x20TAP',
@@ -2481,7 +2779,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '1824W',
@@ -2505,7 +2804,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '110',
 		F: 'yes',
-		G: 'Sales:Window Options'
+		G: 'Sales:Window Options',
+		category: 'windows'
 	},
 	{
 		name: '2026W',
@@ -2513,7 +2813,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '125',
 		F: 'yes',
-		G: 'Sales:Window Options'
+		G: 'Sales:Window Options',
+		category: 'windows'
 	},
 	{
 		name: '2030SHG',
@@ -2521,7 +2822,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '179',
 		F: 'yes',
-		G: 'Sales:Window Options'
+		G: 'Sales:Window Options',
+		category: 'windows'
 	},
 	{
 		name: '2030SHW',
@@ -2537,7 +2839,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '154',
 		F: 'yes',
-		G: 'Sales:Window Options'
+		G: 'Sales:Window Options',
+		category: 'windows'
 	},
 	{
 		name: '2036W',
@@ -2557,11 +2860,12 @@ export const inventory = [
 	},
 	{
 		name: '24SHELF',
-		description: "1-8'x24' Shelf",
+		description: '24" Shelf (Price per linear ft)',
 		D: 'Non-inventory',
 		price: '5',
 		F: 'yes',
-		G: 'Sales:Loft, Shelf & Workbench Options'
+		G: 'Sales:Loft, Shelf & Workbench Options',
+		category: 'shelving'
 	},
 	{
 		name: '2620W',
@@ -2577,7 +2881,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '295',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '2X4FOHANG',
@@ -2601,7 +2906,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '140',
 		F: 'yes',
-		G: 'Sales:Window Options'
+		G: 'Sales:Window Options',
+		category: 'windows'
 	},
 	{
 		name: '3020W',
@@ -2609,7 +2915,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '140',
 		F: 'yes',
-		G: 'Sales:Window Options'
+		G: 'Sales:Window Options',
+		category: 'windows'
 	},
 	{
 		name: '3030W',
@@ -2617,7 +2924,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '165',
 		F: 'yes',
-		G: 'Sales:Window Options'
+		G: 'Sales:Window Options',
+		category: 'windows'
 	},
 	{
 		name: '3030WG',
@@ -2625,7 +2933,9 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '190',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: '',
+		category: 'windows'
 	},
 	{
 		name: '30PORCH',
@@ -2633,7 +2943,8 @@ export const inventory = [
 		D: 'Service',
 		price: '27.5',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '30SDOOR',
@@ -2641,7 +2952,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '30STEEL',
@@ -2649,7 +2961,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '295',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'doors'
 	},
 	{
 		name: '3X3 LOFT OPENING',
@@ -2657,7 +2970,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '50',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '4010W',
@@ -2665,7 +2979,8 @@ export const inventory = [
 		D: 'Service',
 		price: '165',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: 'windows'
 	},
 	{
 		name: '4030W',
@@ -2673,7 +2988,8 @@ export const inventory = [
 		D: 'Service',
 		price: '205',
 		F: 'yes',
-		G: 'Sales:Window Options'
+		G: 'Sales:Window Options',
+		category: 'windows'
 	},
 	{
 		name: '40HANG',
@@ -2697,7 +3013,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '175',
 		F: 'yes',
-		G: 'Sales:Window Options'
+		G: 'Sales:Window Options',
+		category: 'windows'
 	},
 	{
 		name: '4X6BEAM',
@@ -2721,7 +3038,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '175',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: 'windows'
 	},
 	{
 		name: '6020W',
@@ -2737,7 +3055,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '695',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'doors'
 	},
 	{
 		name: '6DDOOR',
@@ -2745,7 +3064,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '135',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'doors'
 	},
 	{
 		name: '6DORM',
@@ -2769,7 +3089,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '175',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: 'windows'
 	},
 	{
 		name: '6X7RDOOR',
@@ -2777,7 +3098,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '7HDOOR',
@@ -2793,7 +3115,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '2150',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '8DD7H',
@@ -2801,7 +3124,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '185',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '8DDOOR',
@@ -2809,7 +3133,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '160',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'doors'
 	},
 	{
 		name: '8DORM',
@@ -2825,7 +3150,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '760',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '8X7ROLLUP',
@@ -2833,7 +3159,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '700',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: '9x7GD',
@@ -2841,7 +3168,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '650',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'ADORM',
@@ -2857,7 +3185,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'soffit'
 	},
 	{
 		name: 'ATHRESH',
@@ -2913,7 +3242,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '100',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'CDOOR',
@@ -2929,7 +3259,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'COUPON',
@@ -2937,7 +3268,8 @@ export const inventory = [
 		D: 'Service',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'CPBASE',
@@ -2949,11 +3281,12 @@ export const inventory = [
 	},
 	{
 		name: 'CPITCH',
-		description: '8/12 Roof Pitch',
+		description: 'Custom Roof Pitch',
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'custom options'
 	},
 	{
 		name: 'CSHAKE',
@@ -2961,7 +3294,8 @@ export const inventory = [
 		D: 'Service',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'CSIDE',
@@ -2969,7 +3303,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'CSTEELDOOR',
@@ -2977,7 +3312,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '475',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'CUPOLA',
@@ -3001,7 +3337,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'DHANG',
@@ -3017,7 +3354,8 @@ export const inventory = [
 		D: 'Service',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'DLATCH',
@@ -3025,7 +3363,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '40',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'DOGDOOR',
@@ -3041,7 +3380,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '50',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'DPAINT',
@@ -3065,7 +3405,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '600',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'ETRUSS',
@@ -3073,7 +3414,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'FLOOR KIT',
@@ -3081,7 +3423,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'GDTHRESH',
@@ -3105,7 +3448,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '10',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'HSHOW',
@@ -3113,7 +3457,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '-100',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'HUTCH',
@@ -3121,7 +3466,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '350',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'HWVANE',
@@ -3161,7 +3507,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'LABOR',
@@ -3169,7 +3516,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'LATCH',
@@ -3205,11 +3553,12 @@ export const inventory = [
 	},
 	{
 		name: 'LOFT',
-		description: 'Loft',
+		description: 'Loft (Price per Square ft.)',
 		D: 'Non-inventory',
-		price: '0',
+		price: '4.5',
 		F: 'yes',
-		G: 'Sales:Loft, Shelf & Workbench Options'
+		G: 'Sales:Loft, Shelf & Workbench Options',
+		category: 'shelving'
 	},
 	{
 		name: 'LPLAPSIDE',
@@ -3217,7 +3566,8 @@ export const inventory = [
 		D: 'Service',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'LPSMARTSIDELAP',
@@ -3241,7 +3591,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'MISC',
@@ -3257,7 +3608,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'roofing'
 	},
 	{
 		name: 'OCTVENT',
@@ -3265,7 +3617,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales:Vents and Skylights'
+		G: 'Sales:Vents and Skylights',
+		category: 'vents'
 	},
 	{
 		name: 'OHANG',
@@ -3273,7 +3626,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '5',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'custom options'
 	},
 	{
 		name: 'PAINT',
@@ -3305,7 +3659,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '40',
 		F: 'yes',
-		G: 'Sales:Loft, Shelf & Workbench Options'
+		G: 'Sales:Loft, Shelf & Workbench Options',
+		category: 'shelving'
 	},
 	{
 		name: 'PDOOR',
@@ -3313,7 +3668,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '100',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'PLANS',
@@ -3329,7 +3685,8 @@ export const inventory = [
 		D: 'Service',
 		price: '',
 		F: 'no',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'POHANG',
@@ -3353,7 +3710,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '11.5',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'PRAIL',
@@ -3377,7 +3735,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '75',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'shelving'
 	},
 	{
 		name: 'REFUND',
@@ -3385,7 +3744,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '',
 		F: 'no',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'RFLAIR',
@@ -3401,7 +3761,8 @@ export const inventory = [
 		D: 'Service',
 		price: '8',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'RKIT',
@@ -3409,7 +3770,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '0',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'ROOSTER',
@@ -3425,7 +3787,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '25',
 		F: 'yes',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'RVENT',
@@ -3433,7 +3796,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '40',
 		F: 'yes',
-		G: 'Sales:Vents and Skylights'
+		G: 'Sales:Vents and Skylights',
+		category: 'vents'
 	},
 	{
 		name: 'Sales',
@@ -3441,7 +3805,8 @@ export const inventory = [
 		D: 'Service',
 		price: '',
 		F: 'no',
-		G: 'Sales'
+		G: 'Sales',
+		category: ''
 	},
 	{
 		name: 'SDORM',
@@ -3481,7 +3846,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '70',
 		F: 'yes',
-		G: 'Sales:Vents and Skylights'
+		G: 'Sales:Vents and Skylights',
+		category: 'vents'
 	},
 	{
 		name: 'SSOFFIT',
@@ -3489,7 +3855,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '4.5',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'soffit'
 	},
 	{
 		name: 'T-111 SIDE',
@@ -3529,7 +3896,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '16',
 		F: 'yes',
-		G: 'Sales:Vents and Skylights'
+		G: 'Sales:Vents and Skylights',
+		category: 'vents'
 	},
 	{
 		name: 'XPAINT',
@@ -3545,7 +3913,8 @@ export const inventory = [
 		D: 'Non-inventory',
 		price: '125',
 		F: 'yes',
-		G: 'Sales:Custom Options'
+		G: 'Sales:Custom Options',
+		category: 'doors'
 	},
 	{
 		name: 'XTRIM',
