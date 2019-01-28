@@ -3,6 +3,8 @@ import './App.css';
 import ShedTypeCard from './ShedTypeCard';
 import { ShedTypes } from './shedTypesService';
 import { inventory } from './InventoryService';
+import { Route } from 'react-router-dom';
+import ShedOptions from './ShedOptions';
 
 class App extends Component {
 	constructor(props) {
@@ -21,7 +23,9 @@ class App extends Component {
 	handleChange(string, name) {
 		if (name === 'size') {
 			const style = this.state.shedType === 'VA' ? 'VA' : this.state.shedType + this.state.series;
-			return this.setState({ size: string, shedCode: string + style }, () => this.getBasePrice());
+			return this.setState({ size: string, shedCode: string + style }, () =>
+				this.props.history.push(`/options/${this.state.shedCode}`)
+			);
 		}
 		this.setState({ [name]: string });
 	}
@@ -32,16 +36,19 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				{ShedTypes.map((shed) => (
-					<ShedTypeCard
-						key={shed.name}
-						shed={shed}
-						shedType={this.state.shedType}
-						series={this.state.series}
-						setShedType={() => this.setShedType(shed.type)}
-						handleChange={this.handleChange.bind(this)}
-					/>
-				))}
+				{this.props.location.pathname === '/' ? (
+					ShedTypes.map((shed) => (
+						<ShedTypeCard
+							key={shed.name}
+							shed={shed}
+							shedType={this.state.shedType}
+							series={this.state.series}
+							setShedType={() => this.setShedType(shed.type)}
+							handleChange={this.handleChange.bind(this)}
+						/>
+					))
+				) : null}
+				<Route path="/options/:shedCode" component={ShedOptions} />
 			</div>
 		);
 	}

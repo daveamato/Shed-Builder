@@ -7,7 +7,7 @@ export default function ShedTypeCard(props) {
 			<img src={props.shed.image} alt={props.shed.name} />
 			<p>{props.shed.description}</p>
 			<button onClick={props.setShedType}>Select</button>
-			{props.shedType === props.shed.type ? (
+			{props.shedType === props.shed.type && props.shed.type !== 'VA' ? (
 				<div>
 					<label htmlFor="classic"> Classic Series (24" On Center Studs)</label>
 					<input
@@ -28,7 +28,8 @@ export default function ShedTypeCard(props) {
 					/>
 				</div>
 			) : null}
-			{props.shedType === props.shed.type && props.series !== '' ? (
+			{(props.shedType === props.shed.type && props.series !== '') ||
+			(props.shedType === props.shed.type && props.shedType) === 'VA' ? (
 				<SizeSelector handleChange={props.handleChange.bind(this)} />
 			) : null}
 		</div>
