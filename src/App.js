@@ -1,28 +1,50 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ShedTypeCard from './ShedTypeCard';
+import { ShedTypes } from './shedTypesService';
+import { inventory } from './InventoryService';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+	constructor(props) {
+		super(props);
+		this.state = {
+			shedType: '',
+			series: '',
+			size: '',
+			shedCode: '',
+			basePrice: 0
+		};
+	}
+	setShedType(name) {
+		this.setState({ shedType: name });
+	}
+	handleChange(string, name) {
+		if (name === 'size') {
+			const style = this.state.shedType === 'VA' ? 'VA' : this.state.shedType + this.state.series;
+			return this.setState({ size: string, shedCode: string + style }, () => this.getBasePrice());
+		}
+		this.setState({ [name]: string });
+	}
+	getBasePrice() {
+		const shed = inventory.filter((shed) => shed.name === this.state.shedCode);
+		this.setState({ basePrice: +shed[0].price });
+	}
+	render() {
+		return (
+			<div className="App">
+				{ShedTypes.map((shed) => (
+					<ShedTypeCard
+						key={shed.name}
+						shed={shed}
+						shedType={this.state.shedType}
+						series={this.state.series}
+						setShedType={() => this.setShedType(shed.type)}
+						handleChange={this.handleChange.bind(this)}
+					/>
+				))}
+			</div>
+		);
+	}
 }
 
 export default App;
