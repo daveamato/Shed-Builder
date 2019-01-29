@@ -26,7 +26,9 @@ export default class ShedOptions extends Component {
 			shedWidth: 0,
 			shedLength: 0,
 			activeCategory: 'paint',
-			showCart: false
+			showCart: false,
+			overhang: 'none',
+			roofPitch: '4/12 '
 		};
 	}
 	componentWillMount() {
@@ -56,10 +58,45 @@ export default class ShedOptions extends Component {
 	}
 	addItem(item, qty) {
 		item.qty = qty;
-		const addedValue = item.price * qty;
 		const items = this.state.items;
-		items.push(item);
-		this.setState({ totalPrice: this.state.totalPrice + addedValue, items });
+		const categories = items.map((item) => item.name);
+		if (categories.includes('OHANG') && item.name === 'OHANG') {
+			this.getTotalPrice();
+		} else {
+			items.push(item);
+			this.setState({ items }, this.getTotalPrice());
+		}
+	}
+	getTotalPrice() {
+		const totals = this.state.items.map((item) => item.qty * item.price);
+		const totalPrice = totals.reduce((a, b) => a + b);
+		this.setState({ totalPrice });
+	}
+	addSoffit(item, overhang, string) {
+		item.qty = 1;
+		item.total = item.price;
+		const items = this.state.items;
+		const cartCategories = items.map((item) => item.category);
+		const filteredItems = items
+			.filter((item) => item.name !== 'OHANG')
+			.filter((item) => item.category !== 'soffit');
+		if (item.none === true) {
+			return this.setState({ items: filteredItems, overhang: string }, () => this.getTotalPrice());
+		}
+		if (cartCategories.includes('soffit')) {
+			const index = cartCategories.indexOf('soffit');
+			if (item.name === 'OHANG') {
+				items.splice(index, 1);
+				this.setState({ items, overhang: string }, this.getTotalPrice());
+			} else {
+				items.splice(index, 1);
+				items.push(item);
+				this.setState({ items, overhang: string }, this.getTotalPrice());
+			}
+		} else {
+			items.push(item);
+			this.setState({ items, overhang: string }, this.addItem(overhang, 1));
+		}
 	}
 	toggleShowCart() {
 		this.setState({ showCart: !this.state.showCart });
@@ -67,24 +104,38 @@ export default class ShedOptions extends Component {
 	removeItem(item, index) {
 		const items = this.state.items;
 		items.splice(index, 1);
-		const totalPrice = this.state.totalPrice - item.price * item.qty;
+
 		if (item.name === 'PAINT') {
-			this.setState({ items, paint: false, totalPrice });
+			this.setState({ items, paint: false }, this.getTotalPrice());
+		} else if (item.name === 'OHANG') {
+			const filteredItems = items.filter((item) => item.category !== 'soffit');
+			this.setState({ items: filteredItems }, this.getTotalPrice);
 		} else {
-			this.setState({ items, totalPrice });
+			this.setState({ items }, this.getTotalPrice());
 		}
 	}
 	addCustomRoofPitch(item, string) {
 		item.description = string + item.description;
 		const squareFootage = this.state.shedLength * this.state.shedWidth;
+		const items = this.state.items;
+		const filteredItems = items.filter((item) => item.name !== 'CPITCH');
+		const categories = items.map((item) => item.name);
 		if (string === '6/12 ') {
 			item.price = squareFootage * 2.5;
 		} else if (string === '8/12 ') {
 			item.price = squareFootage * 4;
 		} else if (string === '10/12 ') {
 			item.price = squareFootage * 5;
+		} else if (string === '4/12 ') {
+			return this.setState({ roofPitch: string, items: filteredItems }, () => this.getTotalPrice());
 		}
-		this.addItem(item, 1);
+		if (categories.includes('CPITCH')) {
+			const index = categories.indexOf('CPITCH');
+			items.splice(index, 1);
+			this.setState({ items, roofPitch: string }, this.addItem(item, 1));
+		} else {
+			this.setState({ roofPitch: string }, this.addItem(item, 1));
+		}
 	}
 	render() {
 		return (
@@ -125,9 +176,14 @@ export default class ShedOptions extends Component {
 						<h2 onClick={() => this.changeCategory(cat.alias)}>{cat.name}</h2>
 						{this.state.activeCategory === cat.alias ? (
 							<SpecificOptions
+								width={this.state.shedWidth}
+								length={this.state.shedLength}
 								addCustomRoofPitch={this.addCustomRoofPitch.bind(this)}
 								addItem={this.addItem.bind(this)}
 								category={cat}
+								addSoffit={this.addSoffit.bind(this)}
+								overhang={this.state.overhang}
+								roofPitch={this.state.roofPitch}
 							/>
 						) : null}
 					</div>

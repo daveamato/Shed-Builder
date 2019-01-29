@@ -22,9 +22,15 @@ export default class SpecificOptions extends Component {
 					<div>
 						{filteredCategories.map((item, index) => (
 							<CustomOptions
+								width={this.props.width}
+								length={this.props.length}
 								key={index}
 								addCustomRoofPitch={this.props.addCustomRoofPitch.bind(this)}
 								category={item}
+								addItem={this.props.addItem}
+								addSoffit={this.props.addSoffit}
+								roofPitch={this.props.roofPitch}
+								overhang={this.props.overhang}
 							/>
 						))}
 					</div>

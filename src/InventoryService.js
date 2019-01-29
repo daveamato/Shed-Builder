@@ -2934,7 +2934,6 @@ export const inventory = [
 		price: '190',
 		F: 'yes',
 		G: 'Sales',
-		category: '',
 		category: 'windows'
 	},
 	{
