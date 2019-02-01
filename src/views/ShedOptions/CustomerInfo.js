@@ -37,7 +37,7 @@ export default function CustomerInfo(props) {
 				onChange={(e) => props.handleChange(e)}
 			/>
 			<button onClick={() => props.hideForm()}>Cancel</button>
-			<button>Submit Bid</button>
+			<button onClick={() => props.submitBid()}>Submit Bid</button>
 		</div>
 	);
 }

@@ -9,6 +9,7 @@
 		"dotenv": "^6.2.0",
 		"express": "^4.16.4",
 		"express-session": "^1.15.6",
+		"massive": "^5.7.4",
 		"node-quickbooks": "^2.0.25",
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",
@@ -25,6 +26,11 @@
 	"eslintConfig": {
 		"extends": "react-app"
 	},
-	"browserslist": [ ">0.2%", "not dead", "not ie <= 11", "not op_mini all" ],
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
 	"proxy": "http://localhost:3002"
 }

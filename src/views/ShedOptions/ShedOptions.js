@@ -5,6 +5,7 @@ import SpecificOptions from './SpecificOptions';
 import Modal from 'react-modal';
 import CustomerInfo from './CustomerInfo';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 const customStyles = {
 	content: {
@@ -210,6 +211,7 @@ export default class ShedOptions extends Component {
 						phone={this.state.phone}
 						email={this.state.email}
 						hideForm={this.toggleShowCustomerInfo.bind(this)}
+						submitBid={this.submitBid.bind(this)}
 					/>
 				</Modal>
 				<button onClick={() => this.toggleShowCustomerInfo()}>Get Bid</button>
@@ -249,5 +251,10 @@ export default class ShedOptions extends Component {
 	}
 	toggleShowCustomerInfo() {
 		this.setState({ CustomerInfo: !this.state.CustomerInfo });
+	}
+	submitBid() {
+		const { name, email, phone, address, items } = this.state;
+		const bid = { name, email, phone, address, items };
+		axios.post('/api/new-bid', bid).then(() => this.props.history.push('/'));
 	}
 }
