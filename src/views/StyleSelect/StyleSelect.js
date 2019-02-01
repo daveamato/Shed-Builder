@@ -32,6 +32,7 @@ export default class StyleSelect extends Component {
 		const shed = inventory.filter((shed) => shed.name === this.state.shedCode);
 		this.setState({ basePrice: +shed[0].price });
 	}
+
 	render() {
 		return (
 			<div>
