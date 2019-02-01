@@ -3,6 +3,7 @@ import { inventory } from './InventoryService';
 import { OptionCategories } from './OptionCategories';
 import SpecificOptions from './SpecificOptions';
 import Modal from 'react-modal';
+import CustomerInfo from './CustomerInfo';
 
 const customStyles = {
 	content: {
@@ -28,7 +29,12 @@ export default class ShedOptions extends Component {
 			activeCategory: 'paint',
 			showCart: false,
 			overhang: 'none',
-			roofPitch: '4/12 '
+			roofPitch: '4/12 ',
+			CustomerInfo: false,
+			name: '',
+			address: '',
+			phone: '',
+			email: ''
 		};
 	}
 	componentWillMount() {
@@ -141,24 +147,9 @@ export default class ShedOptions extends Component {
 		return (
 			<div>
 				<div>
-					Price: {'$' + this.state.totalPrice} <span onClick={() => this.toggleShowCart()}>🛒</span>
+					Price: {'$' + this.state.totalPrice.toFixed(2)}{' '}
+					<span onClick={() => this.toggleShowCart()}>🛒</span>
 				</div>
-				{this.state.showCart ? (
-					<Modal
-						isOpen={this.state.showCart}
-						contentLabel="Import Modal"
-						style={customStyles}
-						ariaHideApp={false}
-					>
-						{this.state.items.map((item, index) => (
-							<div key={index}>
-								{item.qty} {item.description} ${item.qty * item.price}{' '}
-								<button onClick={() => this.removeItem(item, index)}>Remove</button>
-							</div>
-						))}
-						<button onClick={() => this.toggleShowCart()}>Close</button>
-					</Modal>
-				) : null}
 				<h2 onClick={() => this.changeCategory('paint')}>Paint</h2>
 				{this.state.activeCategory === 'paint' ? (
 					<div>
@@ -188,45 +179,71 @@ export default class ShedOptions extends Component {
 						) : null}
 					</div>
 				))}
+				<Modal
+					isOpen={this.state.showCart}
+					contentLabel="Import Modal"
+					style={customStyles}
+					ariaHideApp={false}
+				>
+					{this.state.items.map((item, index) => (
+						<div key={index}>
+							{item.qty} {item.description} ${item.qty * item.price}{' '}
+							<button onClick={() => this.removeItem(item, index)}>Remove</button>
+						</div>
+					))}
+					<button onClick={() => this.toggleShowCart()}>Close</button>
+				</Modal>
+				<Modal
+					isOpen={this.state.CustomerInfo}
+					contentLabel="Import Modal"
+					style={customStyles}
+					ariaHideApp={false}
+				>
+					<CustomerInfo
+						handleChange={this.handleCustomerInfoChange.bind(this)}
+						name={this.state.name}
+						address={this.state.address}
+						phone={this.state.phone}
+						email={this.state.email}
+						hideForm={this.toggleShowCustomerInfo.bind(this)}
+					/>
+				</Modal>
+				<button onClick={() => this.toggleShowCustomerInfo()}>Get Bid</button>
 			</div>
 		);
 	}
 	PaintShed() {
-		let totalPrice = this.state.totalPrice;
-		totalPrice += this.state.basePrice * 0.12;
 		const items = this.state.items;
-		items.push('PAINT');
-		this.setState({
-			items,
-			totalPrice,
-			paintPrice: this.state.basePrice * 12
-		});
+		if (this.state.paint) {
+		} else {
+			const findPaint = inventory.filter((item) => item.name === 'PAINT');
+			const paint = findPaint[0];
+			paint.price = this.state.basePrice * 0.12;
+			paint.qty = 1;
+			items.push(paint);
+			this.setState({ items }, this.getTotalPrice());
+		}
 	}
 	togglePaintSelect() {
 		if (this.state.paint) {
-			const items = this.state.items;
-			const index = items.indexOf('PAINT');
-			Array.prototype.remove = function() {
-				var what,
-					a = arguments,
-					L = a.length,
-					ax;
-				while (L && this.length) {
-					what = a[--L];
-					while ((ax = this.indexOf(what)) !== -1) {
-						this.splice(ax, 1);
-					}
-				}
-				return this;
-			};
-			this.setState({
-				paint: false,
-				paintPrice: 0,
-				totalPrice: this.state.totalPrice - this.state.basePrice * 0.12,
-				items: items.remove('PAINT')
-			});
+			const items = this.state.items.filter((item) => item.name !== 'PAINT');
+
+			return this.setState(
+				{
+					paint: false,
+					items
+				},
+				() => this.getTotalPrice()
+			);
 		} else {
 			this.setState({ paint: true }, this.PaintShed());
 		}
+	}
+	handleCustomerInfoChange(event) {
+		const { name, value } = event.target;
+		this.setState({ [name]: value });
+	}
+	toggleShowCustomerInfo() {
+		this.setState({ CustomerInfo: !this.state.CustomerInfo });
 	}
 }

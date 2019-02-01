@@ -124,7 +124,7 @@ export default class CustomOptions extends Component {
 						onChange={(e) => this.props.addSoffit(smart, overhang, e.target.value)}
 					/>
 					<label htmlFor="alum-soffit">
-						12" overhang with no soffit ${((width + 2) * 2 + (length + 2) * 2) * 12.5}
+						12" overhang with aluminum soffit ${((width + 2) * 2 + (length + 2) * 2) * 12.5}
 					</label>
 					<input
 						id="alum-soffit"

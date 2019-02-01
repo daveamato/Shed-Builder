@@ -4,6 +4,7 @@ import ShedTypeCard from './ShedTypeCard';
 import { ShedTypes } from './shedTypesService';
 import { inventory } from './InventoryService';
 import { Route } from 'react-router-dom';
+import axios from 'axios';
 import ShedOptions from './ShedOptions';
 
 class App extends Component {
@@ -16,6 +17,10 @@ class App extends Component {
 			shedCode: '',
 			basePrice: 0
 		};
+	}
+	getCustomer() {
+		console.log('hit');
+		axios.get('/api/test').then((response) => console.log(response)).catch((err) => console.log(err));
 	}
 	setShedType(name) {
 		this.setState({ shedType: name });
@@ -36,6 +41,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
+				<button onClick={() => this.getCustomer()}>test</button>
 				{this.props.location.pathname === '/' ? (
 					ShedTypes.map((shed) => (
 						<ShedTypeCard
