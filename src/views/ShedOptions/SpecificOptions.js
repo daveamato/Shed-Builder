@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { inventory } from './InventoryService';
+import { inventory } from '../../InventoryService';
 import CustomOptions from './CustomOptions';
 
 export default class SpecificOptions extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { inventory } from './InventoryService';
+import { inventory } from '../../InventoryService';
 
 const inventoryFiltered = inventory.filter((item) => item.category === 'soffit');
 

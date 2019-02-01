@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { inventory } from './InventoryService';
+import { inventory } from '../../InventoryService';
 import { OptionCategories } from './OptionCategories';
 import SpecificOptions from './SpecificOptions';
 import Modal from 'react-modal';
 import CustomerInfo from './CustomerInfo';
+import { Link } from 'react-router-dom';
 
 const customStyles = {
 	content: {
@@ -147,6 +148,9 @@ export default class ShedOptions extends Component {
 		return (
 			<div>
 				<div>
+					<Link to="/">
+						<button>Back</button>
+					</Link>
 					Price: {'$' + this.state.totalPrice.toFixed(2)}{' '}
 					<span onClick={() => this.toggleShowCart()}>🛒</span>
 				</div>
