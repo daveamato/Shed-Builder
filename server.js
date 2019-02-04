@@ -30,5 +30,7 @@ massive(process.env.CONNECTION_STRING)
 app.post('/api/new-bid', controller.newBid);
 app.post('/api/login', controller.login);
 app.get('/api/authCheck', controller.authCheck);
+app.get('/api/getEstimates', controller.getEstimates);
+app.get('/api/get_single_estimate/:estimateId', controller.getOneEstimate);
 app.post('/api/auth/logout', (req, res, next) => req.session.destroy(() => res.sendStatus(200)));
 app.listen(3002, () => console.log('listening on port 3002'));

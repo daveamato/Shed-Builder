@@ -1,0 +1,1 @@
+select * from estimates e INNER JOIN customers c ON e.cusotmer_id =c.customer_id WHERE e.estimate_id =$1

@@ -36,5 +36,22 @@ module.exports = {
 		} else {
 			res.sendStatus(401);
 		}
+	},
+	getEstimates: (req, res) => {
+		const dbInstance = req.app.get('db');
+
+		dbInstance.get_estimates().then((data) => res.send(data)).catch((err) => {
+			res.status(500).send({ errorMessage: 'Something went wrong!' });
+			console.log(err);
+		});
+	},
+	getOneEstimate: (req, res) => {
+		const dbInstance = req.app.get('db');
+		const { estimateId } = req.params;
+
+		dbInstance.get_single_estimate([ estimateId ]).then((estimate) => res.send(estimate)).catch((err) => {
+			res.status(500).send({ errorMessage: 'Something went wrong!' });
+			console.log(err);
+		});
 	}
 };

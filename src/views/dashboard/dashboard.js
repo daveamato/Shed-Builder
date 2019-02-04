@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default class dashboard extends Component {
 	constructor(props) {
@@ -11,7 +12,7 @@ export default class dashboard extends Component {
 	componentWillMount() {
 		axios
 			.get('/api/authCheck')
-			.then(() => console.log('all good here'))
+			.then(() => axios.get('/api/getEstimates').then(({ data }) => this.setState({ estimates: data })))
 			.catch(() => this.props.history.push('/login'));
 	}
 	logOut() {
@@ -22,6 +23,14 @@ export default class dashboard extends Component {
 			<div>
 				<h2>welcome to the dashboard!</h2>
 				<button onClick={() => this.logOut()}>Logout</button>
+				{this.state.estimates.map((estimate) => (
+					<Link to={`/estimate/${estimate.estimate_id}`} key={estimate.estimate_id}>
+						<div>
+							<span>{estimate.estimate_id}</span>
+							<span>{estimate.name}</span>
+						</div>
+					</Link>
+				))}
 			</div>
 		);
 	}
