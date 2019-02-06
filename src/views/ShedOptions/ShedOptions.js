@@ -6,6 +6,7 @@ import Modal from 'react-modal';
 import CustomerInfo from './CustomerInfo';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import './ShedOptions.css';
 
 const customStyles = {
 	content: {
@@ -147,7 +148,7 @@ export default class ShedOptions extends Component {
 	}
 	render() {
 		return (
-			<div>
+			<div className="shed-options">
 				<div>
 					<Link to="/">
 						<button>Back</button>
@@ -155,9 +156,14 @@ export default class ShedOptions extends Component {
 					Price: {'$' + this.state.totalPrice.toFixed(2)}{' '}
 					<span onClick={() => this.toggleShowCart()}>🛒</span>
 				</div>
-				<h2 onClick={() => this.changeCategory('paint')}>Paint</h2>
+				<h2
+					className={this.state.activeCategory === 'paint' ? 'active-category' : ''}
+					onClick={() => this.changeCategory('paint')}
+				>
+					Paint
+				</h2>
 				{this.state.activeCategory === 'paint' ? (
-					<div>
+					<div className="scale-in-top">
 						<label htmlFor="paint">Add 2 Tone Paint</label>
 						<input
 							checked={this.state.paint}
@@ -169,7 +175,12 @@ export default class ShedOptions extends Component {
 				) : null}
 				{OptionCategories.map((cat) => (
 					<div key={cat.name}>
-						<h2 onClick={() => this.changeCategory(cat.alias)}>{cat.name}</h2>
+						<h2
+							className={this.state.activeCategory === cat.alias ? 'active-category' : ''}
+							onClick={() => this.changeCategory(cat.alias)}
+						>
+							{cat.name}
+						</h2>
 						{this.state.activeCategory === cat.alias ? (
 							<SpecificOptions
 								width={this.state.shedWidth}

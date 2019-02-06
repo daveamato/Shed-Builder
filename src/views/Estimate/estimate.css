@@ -1,0 +1,62 @@
+.apex-logo {
+	width: 150px;
+	height: 150px;
+}
+.address-container {
+	display: flex;
+	flex-direction: column;
+	margin: 25px;
+	align-items: baseline;
+}
+.estimate-header {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	margin: 50px 0px 0px 50px;
+}
+#estimate {
+	align-self: baseline;
+	color: #7baaf7;
+	font-weight: 500;
+	font-size: 36px;
+	width: 10%;
+	margin: 0 0 0 50px;
+}
+.customer-info {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 50px;
+	padding: 0;
+}
+.divider {
+	border-color: #7baaf7;
+	margin: 0 50px;
+}
+#phone {
+	width: 80%;
+}
+.items-table {
+	width: 100%;
+}
+.table-header {
+	background-color: #c6dafc;
+	color: #7baaf7;
+	font-weight: 100;
+}
+table {
+	border-collapse: collapse;
+}
+.end-of-items {
+	border: 1px dashed grey;
+}
+.total-price {
+	font-size: 30px;
+	margin: 0 50px 0 100px;
+}
+.total {
+	display: flex;
+	justify-content: flex-end;
+}
+.table-container {
+	margin: 0 50px;
+}

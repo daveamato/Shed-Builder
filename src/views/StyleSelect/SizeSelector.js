@@ -3,9 +3,13 @@ import React from 'react';
 export default function SizeSelector(props) {
 	return (
 		<div>
-			<label htmlFor="size"> Select Size:</label>
-			<select name="size" id="size" onChange={(e) => props.handleChange(e.target.value, 'size')}>
-				<option value="" />
+			<select
+				className="custom-select"
+				name="size"
+				id="size"
+				onChange={(e) => props.handleChange(e.target.value, 'size')}
+			>
+				<option value="">Select Size</option>
 				<option value="0606">6'X6'</option>
 				<option value="0608">6'X8'</option>
 				<option value="0610">6'X10'</option>

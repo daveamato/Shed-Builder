@@ -17,7 +17,7 @@ export default class SpecificOptions extends Component {
 	render() {
 		const filteredCategories = inventory.filter((item) => item.category === this.props.category.alias);
 		return (
-			<div>
+			<div className="scale-in-top">
 				{this.props.category.alias === 'custom options' ? (
 					<div>
 						{filteredCategories.map((item, index) => (

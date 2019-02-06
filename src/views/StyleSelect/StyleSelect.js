@@ -4,6 +4,7 @@ import { ShedTypes } from './shedTypesService';
 import { inventory } from '../../InventoryService';
 import { Route } from 'react-router-dom';
 import ShedOptions from '../ShedOptions/ShedOptions';
+import './styleSelect.css';
 
 export default class StyleSelect extends Component {
 	constructor(props) {
@@ -35,7 +36,7 @@ export default class StyleSelect extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="style-select">
 				{ShedTypes.map((shed) => (
 					<ShedTypeCard
 						key={shed.name}
