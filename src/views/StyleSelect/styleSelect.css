@@ -1,12 +1,6 @@
-.style-select,
-.shed-options {
-	background-color: #e8e8e8;
-}
 .style-select {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 .shed-style-image {
 	height: 150px;
@@ -19,14 +13,21 @@
 	margin: 20px;
 	padding: 10px;
 }
+.shed-card h2 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: rgb(73, 155, 234);
+	border: solid 1px rgb(73, 155, 234);
+	border-radius: 5px;
+}
 .style-description {
 	font-size: 12px;
 }
 .select-button {
-	-moz-box-shadow: 1px 2px 0px 0px #8f8f8f;
-	-webkit-box-shadow: 1px 2px 0px 0px #8f8f8f;
-	box-shadow: 1px 2px 0px 0px #8f8f8f;
-	background-color: #029cbe;
+	background: rgb(73, 155, 234);
+	background: -moz-linear-gradient(top, rgba(73, 155, 234, 1) 0%, rgba(32, 124, 229, 1) 100%);
+	background: -webkit-linear-gradient(top, rgba(73, 155, 234, 1) 0%, rgba(32, 124, 229, 1) 100%);
+	background: linear-gradient(to bottom, rgba(73, 155, 234, 1) 0%, rgba(32, 124, 229, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#207ce5', GradientType=0);
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
@@ -44,6 +45,9 @@
 }
 .select-button:hover {
 	background-color: #037994;
+	-moz-box-shadow: 1px 2px 0px 0px #8f8f8f;
+	-webkit-box-shadow: 1px 2px 0px 0px #8f8f8f;
+	box-shadow: 1px 2px 0px 0px #8f8f8f;
 }
 .select-button:active {
 	position: relative;

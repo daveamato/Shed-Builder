@@ -4,6 +4,7 @@ import { ShedTypes } from './shedTypesService';
 import { inventory } from '../../InventoryService';
 import { Route } from 'react-router-dom';
 import ShedOptions from '../ShedOptions/ShedOptions';
+import Navbar from '../NavBar/Navbar';
 import './styleSelect.css';
 
 export default class StyleSelect extends Component {
@@ -36,17 +37,20 @@ export default class StyleSelect extends Component {
 
 	render() {
 		return (
-			<div className="style-select">
-				{ShedTypes.map((shed) => (
-					<ShedTypeCard
-						key={shed.name}
-						shed={shed}
-						shedType={this.state.shedType}
-						series={this.state.series}
-						setShedType={() => this.setShedType(shed.type)}
-						handleChange={this.handleChange.bind(this)}
-					/>
-				))}
+			<div>
+				<Navbar />
+				<div className="style-select">
+					{ShedTypes.map((shed) => (
+						<ShedTypeCard
+							key={shed.name}
+							shed={shed}
+							shedType={this.state.shedType}
+							series={this.state.series}
+							setShedType={() => this.setShedType(shed.type)}
+							handleChange={this.handleChange.bind(this)}
+						/>
+					))}
+				</div>
 			</div>
 		);
 	}

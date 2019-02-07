@@ -17,7 +17,7 @@ export default class SpecificOptions extends Component {
 	render() {
 		const filteredCategories = inventory.filter((item) => item.category === this.props.category.alias);
 		return (
-			<div className="scale-in-top">
+			<div className="scale-in-top options-list">
 				{this.props.category.alias === 'custom options' ? (
 					<div>
 						{filteredCategories.map((item, index) => (
@@ -38,7 +38,12 @@ export default class SpecificOptions extends Component {
 					filteredCategories.map((item) => (
 						<div key={item.name}>
 							{item.description} <b>${item.price}</b>{' '}
-							<button onClick={() => this.props.addItem(item, this.state[item.name])}>add</button>
+							<button
+								className="select-button"
+								onClick={() => this.props.addItem(item, this.state[item.name])}
+							>
+								add
+							</button>
 							<label htmlFor="qty">Qty</label>
 							<input
 								id="qty"

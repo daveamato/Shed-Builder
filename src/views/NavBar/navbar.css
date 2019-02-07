@@ -1,0 +1,86 @@
+.navbar {
+	height: 180px;
+	width: 100%;
+	background: rgb(30, 87, 153);
+	background: -moz-linear-gradient(top, rgb(38, 110, 194) 0%, white 50%, White 51%, White 100%);
+	background: -webkit-linear-gradient(top, rgb(38, 110, 194) 0%, white 50%, White 51%, White 100%);
+	background: linear-gradient(to bottom, rgb(38, 110, 194) 0%, white 50%, White 51%, White 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+	box-shadow: rgba(68, 68, 68, 0.623) 0 4px 4px 4px;
+}
+.lower-navbar {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.upper-navbar {
+	display: flex;
+	justify-content: space-between;
+}
+.apex-link {
+	-moz-box-shadow: inset 0px 1px 1px 1px black;
+	-webkit-box-shadow: inset 0px 1px 1px 1px black;
+	box-shadow: inset 0px 0px 1px 1px black;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a3a3a3), color-stop(1, #a3a3a3));
+	background: -moz-linear-gradient(top, #a3a3a3 5%, #a3a3a3 100%);
+	background: -webkit-linear-gradient(top, #a3a3a3 5%, #a3a3a3 100%);
+	background: -o-linear-gradient(top, #a3a3a3 5%, #a3a3a3 100%);
+	background: -ms-linear-gradient(top, #a3a3a3 5%, #a3a3a3 100%);
+	background: linear-gradient(to bottom, #a3a3a3 5%, #a3a3a3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3a3a3', endColorstr='#a3a3a3', GradientType=0);
+	background-color: #a3a3a3;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	width: 1fr;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	height: 33px;
+}
+.navbar-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.website-title {
+	color: white;
+	font-size: 26px;
+	font-weight: bolder;
+}
+.navbar h1 {
+	color: #ab3f23;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 42px;
+	margin: 0;
+}
+.logo-navbar {
+	width: 152px;
+	height: 125px;
+	margin: 5px 20px 10px;
+}
+.navbar i {
+	font-size: 12px;
+}
+.navbar-text h2 {
+	margin: 0;
+}
+.free-estimate {
+	color: #2e3192;
+	font-weight: bold;
+}
+.shed-image-navbar {
+	width: 303px;
+	height: 117px;
+}

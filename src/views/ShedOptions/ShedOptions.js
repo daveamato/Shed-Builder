@@ -3,6 +3,7 @@ import { inventory } from '../../InventoryService';
 import { OptionCategories } from './OptionCategories';
 import SpecificOptions from './SpecificOptions';
 import Modal from 'react-modal';
+import NavBar from '../NavBar/Navbar';
 import CustomerInfo from './CustomerInfo';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -37,7 +38,10 @@ export default class ShedOptions extends Component {
 			name: '',
 			address: '',
 			phone: '',
-			email: ''
+			email: '',
+			state: '',
+			city: '',
+			zip: ''
 		};
 	}
 	componentWillMount() {
@@ -108,7 +112,7 @@ export default class ShedOptions extends Component {
 		}
 	}
 	toggleShowCart() {
-		this.setState({ showCart: !this.state.showCart });
+		this.setState({ showCart: !this.state.showCart, activeCategory: 'none' });
 	}
 	removeItem(item, index) {
 		const items = this.state.items;
@@ -149,21 +153,30 @@ export default class ShedOptions extends Component {
 	render() {
 		return (
 			<div className="shed-options">
-				<div>
+				<NavBar />
+				<div className="options-header">
 					<Link to="/">
-						<button>Back</button>
-					</Link>
-					Price: {'$' + this.state.totalPrice.toFixed(2)}{' '}
-					<span onClick={() => this.toggleShowCart()}>🛒</span>
+						<button className="select-button">
+							<i className="arrow" />Back
+						</button>
+					</Link>{' '}
+					<div className="total-container">
+						<p className="price">
+							<span id="total-price">{'$' + this.state.totalPrice.toFixed(2)}</span>
+						</p>
+						<button id="details" onClick={() => this.toggleShowCart()} className="select-button">
+							Details
+						</button>
+					</div>
 				</div>
 				<h2
-					className={this.state.activeCategory === 'paint' ? 'active-category' : ''}
+					className={this.state.activeCategory === 'paint' ? 'active-category' : 'inactive-category'}
 					onClick={() => this.changeCategory('paint')}
 				>
 					Paint
 				</h2>
 				{this.state.activeCategory === 'paint' ? (
-					<div className="scale-in-top">
+					<div className="scale-in-top custom-option-box" id="paint">
 						<label htmlFor="paint">Add 2 Tone Paint</label>
 						<input
 							checked={this.state.paint}
@@ -174,24 +187,28 @@ export default class ShedOptions extends Component {
 					</div>
 				) : null}
 				{OptionCategories.map((cat) => (
-					<div key={cat.name}>
+					<div key={cat.name} className="options-container">
 						<h2
-							className={this.state.activeCategory === cat.alias ? 'active-category' : ''}
+							className={
+								this.state.activeCategory === cat.alias ? 'active-category' : 'inactive-category'
+							}
 							onClick={() => this.changeCategory(cat.alias)}
 						>
 							{cat.name}
 						</h2>
 						{this.state.activeCategory === cat.alias ? (
-							<SpecificOptions
-								width={this.state.shedWidth}
-								length={this.state.shedLength}
-								addCustomRoofPitch={this.addCustomRoofPitch.bind(this)}
-								addItem={this.addItem.bind(this)}
-								category={cat}
-								addSoffit={this.addSoffit.bind(this)}
-								overhang={this.state.overhang}
-								roofPitch={this.state.roofPitch}
-							/>
+							<div className={cat.alias !== 'custom options' ? 'options-box' : 'custom-option-box'}>
+								<SpecificOptions
+									width={this.state.shedWidth}
+									length={this.state.shedLength}
+									addCustomRoofPitch={this.addCustomRoofPitch.bind(this)}
+									addItem={this.addItem.bind(this)}
+									category={cat}
+									addSoffit={this.addSoffit.bind(this)}
+									overhang={this.state.overhang}
+									roofPitch={this.state.roofPitch}
+								/>
+							</div>
 						) : null}
 					</div>
 				))}
@@ -201,13 +218,36 @@ export default class ShedOptions extends Component {
 					style={customStyles}
 					ariaHideApp={false}
 				>
-					{this.state.items.map((item, index) => (
-						<div key={index}>
-							{item.qty} {item.description} ${item.qty * item.price}{' '}
-							<button onClick={() => this.removeItem(item, index)}>Remove</button>
+					<div className="cart-modal">
+						<table>
+							<tbody>
+								<tr>
+									<th>QTY</th>
+									<th>Item</th>
+									<th>Price</th>
+								</tr>
+
+								{this.state.items.map((item, index) => (
+									<tr key={index}>
+										<td>{item.qty}</td>
+										<td>{item.description}</td>
+										<td>${(item.qty * item.price).toFixed(2)}</td>
+										<td>
+											<i className="remove-item" onClick={() => this.removeItem(item, index)}>
+												Remove
+											</i>
+										</td>
+									</tr>
+								))}
+							</tbody>
+						</table>
+						<div className="modal-total">
+							total: <b>{'$' + this.state.totalPrice.toFixed(2)}</b>
 						</div>
-					))}
-					<button onClick={() => this.toggleShowCart()}>Close</button>
+						<button className="select-button" onClick={() => this.toggleShowCart()}>
+							Close
+						</button>
+					</div>
 				</Modal>
 				<Modal
 					isOpen={this.state.CustomerInfo}
@@ -219,13 +259,18 @@ export default class ShedOptions extends Component {
 						handleChange={this.handleCustomerInfoChange.bind(this)}
 						name={this.state.name}
 						address={this.state.address}
+						city={this.state.city}
+						state={this.state.state}
+						zip={this.state.zip}
 						phone={this.state.phone}
 						email={this.state.email}
 						hideForm={this.toggleShowCustomerInfo.bind(this)}
 						submitBid={this.submitBid.bind(this)}
 					/>
 				</Modal>
-				<button onClick={() => this.toggleShowCustomerInfo()}>Get Bid</button>
+				<button className="select-button" onClick={() => this.toggleShowCustomerInfo()}>
+					Get Bid
+				</button>
 			</div>
 		);
 	}
@@ -261,11 +306,11 @@ export default class ShedOptions extends Component {
 		this.setState({ [name]: value });
 	}
 	toggleShowCustomerInfo() {
-		this.setState({ CustomerInfo: !this.state.CustomerInfo });
+		this.setState({ CustomerInfo: !this.state.CustomerInfo, activeCategory: 'none' });
 	}
 	submitBid() {
-		const { name, email, phone, address, items } = this.state;
-		const bid = { name, email, phone, address, items };
+		const { name, email, phone, address, city, state, zip, items } = this.state;
+		const bid = { name, email, phone, address, city, state, zip, items };
 		axios.post('/api/new-bid', bid).then(() => this.props.history.push('/'));
 	}
 }

@@ -33,11 +33,25 @@ export default class Estimate extends Component {
 						<b>ADDRESS</b>
 						<span>{this.state.estimate.name}</span>
 						<span>{this.state.estimate.address}</span>
+						<span>
+							{this.state.estimate.city +
+								', ' +
+								this.state.estimate.state +
+								' ' +
+								this.state.estimate.zip}
+						</span>
 					</div>
 					<div className="address-container">
 						<b>SHIP TO</b>
 						<span>{this.state.estimate.name}</span>
 						<span>{this.state.estimate.address}</span>
+						<span>
+							{this.state.estimate.city +
+								', ' +
+								this.state.estimate.state +
+								' ' +
+								this.state.estimate.zip}
+						</span>
 					</div>
 					<div className="address-container">
 						<span>
