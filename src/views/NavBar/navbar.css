@@ -27,6 +27,7 @@
 	background: -o-linear-gradient(top, #a3a3a3 5%, #a3a3a3 100%);
 	background: -ms-linear-gradient(top, #a3a3a3 5%, #a3a3a3 100%);
 	background: linear-gradient(to bottom, #a3a3a3 5%, #a3a3a3 100%);
+	box-shadow: inset 3px 3px 4px rgba(255, 255, 255, 0.75), inset -3px -3px 4px rgba(0, 0, 0, 0.75);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3a3a3', endColorstr='#a3a3a3', GradientType=0);
 	background-color: #a3a3a3;
 	-moz-border-radius: 6px;
@@ -36,18 +37,17 @@
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
-	font-family: Arial;
-	font-weight: bold;
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #ffffff;
 	font-size: 13px;
-	font-weight: bold;
 	text-decoration: none;
 	width: 1fr;
 	justify-content: center;
 	display: flex;
 	align-items: center;
 	height: 33px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	text-align: left;
 }
 .navbar-text {
 	display: flex;

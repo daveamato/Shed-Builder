@@ -26,7 +26,7 @@ export default class ShedOptions extends Component {
 			basePrice: 0,
 			totalPrice: 0,
 			items: [],
-			paintPrice: 0,
+			shedName: '',
 			paint: false,
 			shedWidth: 0,
 			shedLength: 0,
@@ -54,12 +54,14 @@ export default class ShedOptions extends Component {
 		const joinedLength = codeArray[2] + codeArray[3];
 		const shedWidth = Number(joinedWidth);
 		const shedLength = Number(joinedLength);
+		const shedName = shed[0].description;
 		this.setState({
 			basePrice: +shed[0].price,
 			totalPrice: this.state.totalPrice + +shed[0].price,
 			items,
 			shedWidth,
-			shedLength
+			shedLength,
+			shedName
 		});
 	}
 	changeCategory(activeCategory) {
@@ -159,7 +161,8 @@ export default class ShedOptions extends Component {
 						<button className="select-button">
 							<i className="arrow" />Back
 						</button>
-					</Link>{' '}
+					</Link>
+					<b>{this.state.shedName}</b>
 					<div className="total-container">
 						<p className="price">
 							<span id="total-price">{'$' + this.state.totalPrice.toFixed(2)}</span>
