@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import './dashboard.css';
 
 export default class dashboard extends Component {
 	constructor(props) {
@@ -20,17 +21,41 @@ export default class dashboard extends Component {
 	}
 	render() {
 		return (
-			<div>
-				<h2>welcome to the dashboard!</h2>
-				<button onClick={() => this.logOut()}>Logout</button>
-				{this.state.estimates.map((estimate) => (
-					<Link to={`/estimate/${estimate.estimate_id}`} key={estimate.estimate_id}>
-						<div>
-							<span>{estimate.estimate_id}</span>
-							<span>{estimate.name}</span>
-						</div>
-					</Link>
-				))}
+			<div className="dashboard">
+				<div className="dashboard-header">
+					<h2>Customer Invoices</h2>
+					<button onClick={() => this.logOut()} className="select-button">
+						Logout
+					</button>
+				</div>
+				<table>
+					<thead>
+						<tr>
+							<td>
+								<b>Estimate #</b>
+							</td>
+							<td>
+								<b>Customer Name</b>
+							</td>
+							<td>
+								<b>Status</b>
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						{this.state.estimates.map((estimate) => (
+							<tr key={estimate.estimate_id}>
+								<td>
+									<Link to={`/estimate/${estimate.estimate_id}`}>{estimate.estimate_id + 1000}</Link>
+								</td>
+								<td>
+									<Link to={`/estimate/${estimate.estimate_id}`}>{estimate.name}</Link>
+								</td>
+								<td>{estimate.status ? 'New' : 'Opened'}</td>
+							</tr>
+						))}
+					</tbody>
+				</table>
 			</div>
 		);
 	}

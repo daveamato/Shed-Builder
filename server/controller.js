@@ -49,9 +49,21 @@ module.exports = {
 		const dbInstance = req.app.get('db');
 		const { estimateId } = req.params;
 
-		dbInstance.get_single_estimate([ estimateId ]).then((estimate) => res.send(estimate)).catch((err) => {
-			res.status(500).send({ errorMessage: 'Something went wrong!' });
-			console.log(err);
-		});
+		dbInstance
+			.get_single_estimate([ estimateId ])
+			.then((estimate) => {
+				res.send(estimate);
+				console.log(estimate);
+				if (estimate[0].status === true && req.session.userId) {
+					dbInstance.update_status([ estimateId ]).then(() => res.status(200)).catch((err) => {
+						res.status(500).send({ errorMessage: 'Something went wrong!' });
+						console.log(err);
+					});
+				}
+			})
+			.catch((err) => {
+				res.status(500).send({ errorMessage: 'Something went wrong!' });
+				console.log(err);
+			});
 	}
 };

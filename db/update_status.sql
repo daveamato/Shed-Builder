@@ -1,0 +1,1 @@
+UPDATE estimates SET status = false where estimate_id = $1

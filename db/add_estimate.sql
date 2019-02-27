@@ -1,7 +1,9 @@
 INSERT INTO Estimates(
 cusotmer_id,
-items
+items, 
+status
 ) Values(
 $1,
-$2
+$2,
+true
 )

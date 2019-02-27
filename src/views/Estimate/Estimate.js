@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import APEXSHEDLOGO from '../../APEXSHEDLOGO.png';
+import EstimateData from './EstimateData';
 import './estimate.css';
-import ContactInfo from './ContactInfo';
-import EstimateItems from './EstimateItems';
 
 export default class Estimate extends Component {
 	constructor(props) {
@@ -21,60 +19,13 @@ export default class Estimate extends Component {
 			.catch((err) => console.log(err));
 	}
 	render() {
-		return (
+		return this.state.loading ? (
 			<div>
-				<div className="estimate-header">
-					<img className="apex-logo" src={APEXSHEDLOGO} alt="Apex logo" />
-					<ContactInfo />
-				</div>
-				<h2 id="estimate">ESTIMATE</h2>
-				<div className="customer-info">
-					<div className="address-container">
-						<b>ADDRESS</b>
-						<span>{this.state.estimate.name}</span>
-						<span>{this.state.estimate.address}</span>
-						<span>
-							{this.state.estimate.city +
-								', ' +
-								this.state.estimate.state +
-								' ' +
-								this.state.estimate.zip}
-						</span>
-					</div>
-					<div className="address-container">
-						<b>SHIP TO</b>
-						<span>{this.state.estimate.name}</span>
-						<span>{this.state.estimate.address}</span>
-						<span>
-							{this.state.estimate.city +
-								', ' +
-								this.state.estimate.state +
-								' ' +
-								this.state.estimate.zip}
-						</span>
-					</div>
-					<div className="address-container">
-						<span>
-							<b>ESTIMATE# </b> {this.state.estimate.estimate_id}
-						</span>
-						<br />
-						<span>
-							<b>DATE</b>02/05/19
-						</span>
-					</div>
-				</div>
-				<hr className="divider" />
-				<div className="customer-info" id="phone">
-					<div className="address-container">
-						<b>PHONE #</b>
-						<span>{this.state.estimate.phone}</span>
-					</div>
-					<div className="address-container">
-						<b>SALES REP</b>
-						<span>Online Estimate</span>
-					</div>
-				</div>
-				{this.state.loading ? null : <EstimateItems items={this.state.estimate.items} />}
+				<h1>Loading...</h1>
+			</div>
+		) : (
+			<div>
+				<EstimateData estimate={this.state.estimate} />
 			</div>
 		);
 	}

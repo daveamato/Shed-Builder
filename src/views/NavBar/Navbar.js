@@ -14,7 +14,7 @@ export default function Navbar() {
 					<h1>(801)754-3334</h1>
 					<h2 className="free-estimate">Call for FREE On-Site Estimate</h2>
 				</div>
-				<img className="shed-image-navbar" src={ThreeSheds} alt="Three Sheds image" />
+				<img className="shed-image-navbar" src={ThreeSheds} alt="Three Sheds" />
 			</div>
 			<div className="lower-navbar">
 				<a className="apex-link" href="https://www.apexshedcompany.com/">
