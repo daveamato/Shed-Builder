@@ -1,0 +1,23 @@
+.login-box {
+	border: solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10 100px 100px 100px;
+	background: rgb(30, 87, 153);
+	background: -moz-linear-gradient(top, rgb(38, 110, 194) 0%, white 50%, White 51%, White 100%);
+	background: -webkit-linear-gradient(top, rgb(38, 110, 194) 0%, white 50%, White 51%, White 100%);
+	background: linear-gradient(to bottom, rgb(38, 110, 194) 0%, white 50%, White 51%, White 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+}
+.login-box input {
+	font-size: 20px;
+	margin: 10px;
+}
+.login-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+}
