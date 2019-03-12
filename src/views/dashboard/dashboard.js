@@ -7,7 +7,9 @@ export default class dashboard extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			estimates: []
+			estimates: [],
+			allSelected: false,
+			itemsToDelete: []
 		};
 	}
 	componentWillMount() {
@@ -19,6 +21,24 @@ export default class dashboard extends Component {
 	logOut() {
 		axios.post('/api/auth/logout').then(() => this.props.history.push('/login'));
 	}
+	toggleSelectAll() {
+		if (this.state.allSelected) {
+			this.setState({ allSelected: false, itemsToDelete: [] });
+		} else {
+			const itemsToDelete = this.state.estimates.map((estimate) => estimate.estimate_id);
+			this.setState({ allSelected: true, itemsToDelete });
+		}
+	}
+	selectEstimate(id) {
+		const itemsToDelete = this.state.itemsToDelete;
+		if (this.state.itemsToDelete.includes(id)) {
+			const index = itemsToDelete.indexOf(id);
+			itemsToDelete.splice(index, 1);
+		} else {
+			itemsToDelete.push(id);
+		}
+		this.setState({ itemsToDelete });
+	}
 	render() {
 		return (
 			<div className="dashboard">
@@ -28,9 +48,16 @@ export default class dashboard extends Component {
 						Logout
 					</button>
 				</div>
-				<table>
+				<table className="dashboard-table">
 					<thead>
-						<tr>
+						<tr className="header-row">
+							<td>
+								<input
+									type="checkbox"
+									onChange={() => this.toggleSelectAll()}
+									checked={this.state.allSelected}
+								/>
+							</td>
 							<td>
 								<b>Estimate #</b>
 							</td>
@@ -44,7 +71,14 @@ export default class dashboard extends Component {
 					</thead>
 					<tbody>
 						{this.state.estimates.map((estimate) => (
-							<tr key={estimate.estimate_id}>
+							<tr key={estimate.estimate_id} className="dashboard-table-row">
+								<td>
+									<input
+										type="checkbox"
+										checked={this.state.itemsToDelete.includes(estimate.estimate_id)}
+										onChange={() => this.selectEstimate(estimate.estimate_id)}
+									/>
+								</td>
 								<td>
 									<Link to={`/estimate/${estimate.estimate_id}`}>{estimate.estimate_id + 1000}</Link>
 								</td>

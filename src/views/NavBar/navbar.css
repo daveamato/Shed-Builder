@@ -49,6 +49,9 @@
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	text-align: left;
 }
+.apex-link:hover {
+	background: rgb(114, 114, 114);
+}
 .navbar-text {
 	display: flex;
 	flex-direction: column;

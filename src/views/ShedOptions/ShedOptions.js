@@ -138,9 +138,9 @@ export default class ShedOptions extends Component {
 		if (string === '6/12 ') {
 			item.price = squareFootage * 2.5;
 		} else if (string === '8/12 ') {
-			item.price = squareFootage * 4;
+			item.price = squareFootage * 3.5;
 		} else if (string === '10/12 ') {
-			item.price = squareFootage * 5;
+			item.price = squareFootage * 4.5;
 		} else if (string === '4/12 ') {
 			return this.setState({ roofPitch: string, items: filteredItems }, () => this.getTotalPrice());
 		}

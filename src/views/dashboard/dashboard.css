@@ -9,4 +9,30 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 50px;
+}
+.dashboard-table {
+	width: 100%;
+}
+.dashboard-table-row {
+	border-bottom: solid 1px rgb(170, 169, 169);
+	text-align: center;
+}
+.dashboard-table-row:hover {
+	background-color: rgba(151, 151, 151, 0.192);
+}
+.header-row td {
+	border-right: solid 1px grey;
+	padding-right: 10px;
+}
+.header-row {
+	border-bottom: solid 3px rgb(170, 169, 169);
+	text-align: right;
+}
+.header-row:last-child {
+	border-right: none;
+}
+table a {
+	text-decoration: none;
+	color: black;
 }
